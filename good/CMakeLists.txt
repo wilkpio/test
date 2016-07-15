@@ -3,9 +3,7 @@ project( example )
 find_package (PythonLibs REQUIRED)
 find_package (PythonInterp REQUIRED)
 
-#------------------------------------------------------------------------------
 # test target
-#------------------------------------------------------------------------------
 add_custom_target(test)
 
 
